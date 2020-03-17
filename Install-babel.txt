@@ -1,0 +1,11 @@
+In order to run the babel command, you need to either install babel globaly or run it from package.json by saving it in scripts
+
+scripts: {
+   babelCmd: "babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch"
+}
+and run using
+
+npm run babelCmd
+If you want to run the babel command directly, you need to install like
+
+npm install -g babel-cli babel-preset-react
