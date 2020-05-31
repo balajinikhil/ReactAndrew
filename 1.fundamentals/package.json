@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "babelCmd": "babel scripts/3.conditionals.js --out-file=src/app.js --presets=env,react --watch"
+    "babelCmd": "babel scripts/10.visibilityToggle.js --out-file=src/app.js --presets=env,react --watch"
   },
   "keywords": [],
   "author": "",
