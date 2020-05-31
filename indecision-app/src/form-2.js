@@ -1,10 +1,10 @@
 const app = {
   title: "Indecesion App",
   subtitle: "Give Control of your life to a computer",
-  options: []
+  options: [],
 };
 
-const formSubmit = e => {
+const formSubmit = (e) => {
   e.preventDefault();
   let options = e.target.elements.option.value;
   app.options.push(options);
@@ -14,7 +14,7 @@ const formSubmit = e => {
 };
 
 const randomTask = () => {
-  let random = Math.round(Math.random() * app.options.length);
+  let random = Math.round(Math.random() * app.options.length - 1);
   let options = app.options[random];
   alert(options);
 };
@@ -34,7 +34,7 @@ const renderTemp = () => {
       </button>
       <button onClick={reset}>Remove All</button>
       <ol>
-        {app.options.map(e => (
+        {app.options.map((e) => (
           <li key={e}>{e}</li>
         ))}
       </ol>
