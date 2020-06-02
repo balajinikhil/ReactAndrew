@@ -31,7 +31,7 @@ let template2 = (
 // ReactDOM.render(template2, el);
 
 /*
-    To build web apps we need to render data dynamically, for that we must store value in variaable and display variable on the screen, which can be done using JSX expressions
+    To build web apps we need to render data dynamically, for that we must store value in variable and display variable on the screen, which can be done using JSX expressions
 
 JSX expressions
     >Way of rendering js variables and methods inside jsx
